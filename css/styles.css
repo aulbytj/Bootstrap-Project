@@ -704,6 +704,8 @@ img {
 
   .contain-1 {
     display: none;
+    height: 1860px;
+    overflow-y: auto;
   }
 
   .contain-1,
