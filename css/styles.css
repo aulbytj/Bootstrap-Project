@@ -1,0 +1,53 @@
+:root {
+  --fw-n: 300;
+  --fw-m: 600;
+  --fw-b: 700;
+  --ff-r: "Roboto Condensed", sans-serif;
+  --ff-h: Helvetica, Arial, sans-serif;
+  --ff-a: Arial, Helvetica, sans-serif;
+  --ff-l: "Lora", serif;
+  --fs-b: 16px;
+  --fs-13: 0.8125rem;
+  --fs-14: 0.875rem;
+  --fs-15: 0.9375rem;
+  --fs-16: 1rem;
+  --fs-17: 1.0625rem;
+  --fs-18: 1.125rem;
+  --fs-19: 1.1875rem;
+  --fs-20: 1.25rem;
+  --fs-21: 1.315rem;
+  --fs-22: 1.375rem;
+  --fs-24: 1.4375rem;
+  --fs-32: 2rem;
+  --lh-14: 0.875rem;
+  --lh-16: 1rem;
+  --lh-18: 1.125rem;
+  --lh-19: 1.1875rem;
+  --lh-20: 1.25rem;
+  --lh-21: 1.315rem;
+  --lh-22: 1.375rem;
+  --lh-24: 1.4375rem;
+  --lh-28: 1.75rem;
+  --lh-58: 3.625rem;
+  --porcelain: #f4f5f6;
+  --scarlet: #f72210;
+  --black: #000;
+  --white: #fff;
+  --gray: #999;
+  --dove-gray: rgb(102, 102, 102);
+  --mine-shaft: rgb(51, 51, 51);
+}
+
+html,
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  font-family: var(--ff-r);
+  font-size: var(--fs-b);
+  background: var(--porcelain);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
