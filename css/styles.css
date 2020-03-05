@@ -133,3 +133,245 @@ li.list-group-item:nth-last-of-type(1) {
   top: 16px;
   right: 136px;
 }
+
+.btn-danger,
+.stamp--label-editors,
+.--US,
+.--world,
+.--tech-science,
+.--culture-,
+.--sports {
+  color: var(--scarlet);
+}
+
+.nav-link-items,
+.opinion>a,
+.latest>a,
+.feature>a,
+.more>a,
+.top>a,
+.culture,
+.magazine>a,
+.editors>a,
+.slideshow>a,
+.US>a,
+.US-right>a,
+.world>a,
+.world-right>a,
+.tech-science>a,
+.tech-science-right>a,
+.culture->a,
+.culture--right>a,
+.sports>a,
+.sports-right>a,
+.magazine__items,
+.editors__items {
+  color: var(--black);
+}
+
+.navigation ul li a {
+  color: var(--black);
+}
+
+.list-group {
+  justify-content: space-evenly;
+}
+
+.list-group-item {
+  padding: 0;
+}
+
+.left {
+  float: left;
+}
+
+.head>div.container.fixed-top {
+  max-width: inherit;
+  padding: 0;
+}
+
+.head-content {
+  padding: 0 10px;
+  background-color: var(--scarlet);
+}
+
+.header-subscribe {
+  background-color: var(--white);
+  height: 25px;
+  width: 146px;
+  padding: 7px;
+  color: var(--scarlet);
+}
+
+.header-sign-in,
+.header-subscribe {
+  font-size: var(--fs-18);
+  line-height: var(--lh-14);
+}
+
+.navbar {
+  position: fixed;
+  background-color: var(--white);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bsnav-mobile .navbar {
+  top: -1%;
+}
+
+.bsnav-mobile.in .navbar {
+  background: var(--white);
+}
+
+.logo {
+  padding: 0;
+}
+
+.navbar-brand svg {
+  height: 100%;
+  width: 120px;
+  fill: var(--white);
+}
+
+.sub {
+  background-color: var(--white);
+  height: 1.3em;
+  width: 5.1em;
+  padding: 2px;
+}
+
+.mx-auto.d-sm-flex.d-block.flex-sm-nowrap {
+  text-align: center;
+}
+
+.navbar-nav .nav-item:hover>.nav-link {
+  color: var(--scarlet);
+}
+
+.bsnav-dark .navbar-nav .nav-item {
+  color: var(--black);
+  font-size: 100%;
+  line-height: var(--lh-24);
+}
+
+.aside {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: -moz-fit-content;
+}
+
+.transparent {
+  display: none;
+}
+
+.hidden {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.brand svg {
+  fill: var(--white);
+}
+
+.article__title {
+  font-size: var(--fs-16);
+  line-height: var(--lh-16);
+  color: var(--dove-gray);
+}
+
+.feature__summary,
+.editors__summary,
+.culture__summary,
+.subscribe__info {
+  font-size: var(--fs-15);
+  font-weight: var(--fw-n);
+  line-height: var(--lh-20);
+  font-family: var(--ff-a);
+  color: var(--dove-gray);
+}
+
+.top__image {
+  margin-bottom: 10px;
+}
+
+.top,
+.more,
+.feature,
+.editors,
+.opinion,
+.US-right,
+.world-right,
+.tech-science-right,
+.culture--right,
+.sports-right,
+.btn-danger,
+.opinion__by,
+.stamp--label-editors,
+.sign-up__text,
+.all-features__text,
+.newsletter__items>h2,
+.--US,
+.--world,
+.--tech-science,
+.--culture-,
+.--sports,
+.subscribe,
+.magazine__items,
+.editors__items,
+.latest,
+.header-sign-in,
+.header-subscribe {
+  font-weight: var(--fw-b);
+}
+
+.top {
+  font-size: var(--fs-22);
+  line-height: var(--lh-24);
+}
+
+.more,
+.opinion,
+.US-right,
+.world-right,
+.tech-science-right,
+.culture--right,
+.sports-right,
+.latest {
+  font-size: var(--fs-17);
+  line-height: var(--lh-20);
+}
+
+.feature,
+.editors,
+.culture,
+.article__info {
+  font-size: var(--fs-20);
+  line-height: var(--lh-20);
+  font-family: var(--ff-r);
+}
+
+.culture {
+  line-height: var(--lh-22);
+  font-family: var(--ff-l);
+}
+
+.culture-travel {
+  background-color: var(--porcelain);
+}
+
+.top>a:hover,
+.more>a:hover,
+.feature>a:hover,
+.magazine>a:hover,
+.editors>a:hover,
+.slideshow>a:hover,
+.US>a:hover,
+.world>a:hover,
+.tech-science>a:hover,
+.culture->a:hover,
+.sports>a:hover {
+  text-decoration: underline var(--scarlet);
+}
