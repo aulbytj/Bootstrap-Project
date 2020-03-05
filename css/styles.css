@@ -51,3 +51,85 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+header {
+  background-color: var(--scarlet);
+  overflow: hidden;
+}
+
+main {
+  background-color: var(--white);
+}
+
+.icon-menu::before {
+  content: "\e9bd";
+  font-size: var(--fs-32);
+  margin-left: 20px;
+  position: relative;
+  top: 7px;
+}
+
+.signin-subscribe>h3 {
+  font-size: var(--fs-14);
+  line-height: var(--lh-14);
+}
+
+.user-options>h3 {
+  font-size: var(--fs-18);
+  line-height: var(--lh-14);
+}
+
+.user-options>h3:nth-of-type(2) {
+  color: var(--scarlet);
+  background-size: 5px;
+  padding: 0.2em;
+}
+
+.navigation {
+  padding: 15px 160px 15px 0;
+}
+
+.list-group::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 102px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+.navigation,
+.user-options>h3:nth-of-type(2) {
+  background-color: var(--white);
+}
+
+li.list-group-item {
+  border-right: 1px solid var(--gray);
+  padding-right: 7px;
+}
+
+li.list-group-item:nth-last-of-type(1) {
+  border: none;
+}
+
+.last::after {
+  content: 'Search';
+  position: relative;
+  left: 10px;
+  font-weight: var(--fw-n);
+  color: var(--dove-gray);
+}
+
+.m-glass {
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+  clip: auto;
+  font-size: 0;
+  position: absolute;
+  top: 16px;
+  right: 136px;
+}
