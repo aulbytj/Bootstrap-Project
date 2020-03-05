@@ -375,3 +375,62 @@ li.list-group-item:nth-last-of-type(1) {
 .sports>a:hover {
   text-decoration: underline var(--scarlet);
 }
+
+.btn-danger {
+  border: none;
+  border-radius: 0;
+  background-color: var(--scarlet);
+}
+
+.btn-danger::after {
+  content: " >";
+}
+
+.btn-danger:hover {
+  background-color: #de1f0e;
+}
+
+.nav-link-items:hover,
+.opinion>a:hover,
+.latest>a:hover,
+.US-right>a:hover,
+.world-right>a:hover,
+.tech-science-right>a:hover,
+.culture--right>a:hover,
+.sports>a:hover {
+  color: var(--scarlet);
+  text-decoration: none;
+}
+
+.opinion__by {
+  font-size: var(--fs-14);
+  line-height: var(--lh-21);
+  color: var(--dove-gray);
+}
+
+.stamp--label-editors {
+  display: block;
+  font-size: inherit;
+  font-family: var(--ff-r);
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.stamp--label-slideshow {
+  width: 70px;
+  height: 52px;
+  display: block;
+  position: absolute;
+  bottom: 84px;
+  left: 15px;
+  font-weight: var(--fw-b);
+  font-size: var(--fs-20);
+  line-height: var(--lh-58);
+  text-indent: 5px;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
+}
