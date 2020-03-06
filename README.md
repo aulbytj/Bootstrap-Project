@@ -1,8 +1,7 @@
-<!-- @format -->
 
 # Project Name
 
-## Responsive Desgin and CSS Framework
+## Using Bootstrap
 
 > The recreation of the [Newsweek](https://www.newsweek.com/) webpage using the [Twitter Bootstrap](https://getbootstrap.com/) framework is what this project is about.  
 

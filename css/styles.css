@@ -743,9 +743,14 @@ img {
     width: inherit;
   }
 
-  img.w-100.h-auto.small.lazysize.lazyloaded {
+  img.w-100.h-auto.small {
     height: 172px !important;
     width: 258px !important;
+  }
+
+  .__small {
+    height: 90px !important;
+    width: 135px !important;
   }
 
   header.container-fluid {
@@ -817,7 +822,12 @@ img {
     align-self: center !important;
   }
 
-  img.w-100.h-auto.small.lazysize.lazyloaded {
+  img.w-100.h-auto.small {
+    height: 90px !important;
+    width: 135px !important;
+  }
+
+  .__small {
     height: 90px !important;
     width: 135px !important;
   }
@@ -947,7 +957,12 @@ img {
     background-position: bottom;
   }
 
-  img.w-100.h-auto.small.lazysize.lazyloaded {
+  img.w-100.h-auto.small {
+    height: 90px !important;
+    width: 135px !important;
+  }
+
+  .__small {
     height: 90px !important;
     width: 135px !important;
   }
