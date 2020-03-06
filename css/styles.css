@@ -276,6 +276,11 @@ li.list-group-item:nth-last-of-type(1) {
   fill: var(--white);
 }
 
+.contain-1 {
+  height: 1860px;
+  overflow-y: auto;
+}
+
 .article__title {
   font-size: var(--fs-16);
   line-height: var(--lh-16);
@@ -704,8 +709,6 @@ img {
 
   .contain-1 {
     display: none;
-    height: 1860px;
-    overflow-y: auto;
   }
 
   .contain-1,
