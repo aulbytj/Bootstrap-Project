@@ -38,6 +38,78 @@
   --mine-shaft: rgb(51, 51, 51);
 }
 
+@font-face {
+  font-family: 'social';
+  src: url('/fonts/social.eot?1wdm15');
+  src:
+    url('/fonts/social.eot?1wdm15#iefix') format('embedded-opentype'),
+    url('/fonts/social.ttf?1wdm15') format('truetype'),
+    url('/fonts/social.woff?1wdm15') format('woff'),
+    url('/fonts/social.svg?1wdm15#social') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'social' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-navigate_next::before {
+  content: "\e902";
+}
+
+.icon-angle-right::before {
+  content: "\e901";
+}
+
+.icon-instagram::before {
+  content: "\e900";
+}
+
+.icon-menu::before {
+  content: "\e9bd";
+  font-size: var(--fs-32);
+  margin-left: 20px;
+  position: relative;
+  top: 7px;
+}
+
+.icon-facebook2::before {
+  content: "\ea91";
+}
+
+.icon-twitter::before {
+  content: "\ea96";
+}
+
+.icon-tumblr::before {
+  content: "\eab9";
+}
+
+.icon-linkedin2::before {
+  content: "\eaca";
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -59,14 +131,6 @@ header {
 
 main {
   background-color: var(--white);
-}
-
-.icon-menu::before {
-  content: "\e9bd";
-  font-size: var(--fs-32);
-  margin-left: 20px;
-  position: relative;
-  top: 7px;
 }
 
 .signin-subscribe>h3 {
